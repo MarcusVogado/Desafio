@@ -1,15 +1,35 @@
 ﻿#Entry {
-   text-align:center;
-   color:brown;
-   align-items:center;
-   align-content:center;
-   position:center;
-   
+    color: brown;
+    text-align: center;   
+  
 }
-#Titulo
-{    
+#CheckBox {
+    display: flex; 
+    color:brown;
+    width:150px;
+    place-items: center;
+    margin:auto;
+
+}
+
+#Titulo {
+    text-align: center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+#Imgs {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    place-items: center;
+    margin: auto;
+}
+#Button {
+    display:flex;
     text-align:center;
-    color:blue;
-    font-family:Arial, Helvetica, sans-serif;
-    font-size:25px;
+    width: 150px;
+    place-items: center;
+    margin: auto;
 }
