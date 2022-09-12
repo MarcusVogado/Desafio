@@ -6,26 +6,45 @@
 <head>
     <meta charset="utf-8" />
     <title>SORTEIO</title>
-    <link rel="stylesheet" href="Css/StyleCss.css"/>
-    <script type="text/javascript" src="Js/ScriptJava.js"></script>
+    <link rel="stylesheet" href="Css/StyleCss.css" />   
 </head>
 
 
 <body>
 
+
     <h1 id="Titulo"> SORTEIO DE NÚMEROS</h1>
+    <div id="SubTitulo">
+        <h3> SEJA BEM-VINDO(A): </h3>
+    </div>
+    <div id="FontName">
+        <h3 id="userName"></h3>
+    </div>
+
     <br>
     <br>
     <br>
     <br>
-    <button type="button" onclick="sortearNumeros()">SORTEAR NÚMEROS </button>
+    <div id="Button">
+        <button id="button" type="button" onclick="sortearNumeros()">SORTEAR NÚMEROS </button>
+    </div>
+
     <br>
     <br>
     <br>
     <br>
     <br>
     <br>
-    <h1>NÚMERO SORTEADO</h1>
-    <h1 id="result"> </h1>
+    <h1 id="Titulo">NÚMERO SORTEADO</h1>
+    <div id="ResultItem">
+        <h1 id="result"> </h1>
+    </div>
+
+
+    <div id="Titulo">
+        <ol id="listaSorteio"> </ol>
+    </div>
+
+    <script type="text/javascript" src="Js/ScriptJava.js"></script>
 </body>
 </html>
