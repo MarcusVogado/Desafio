@@ -6,12 +6,12 @@
 <head>
     <meta charset="utf-8" />
     <title>SORTEIO</title>
-    <link rel="stylesheet" href="Css/StyleCss.css" />   
+    <link rel="stylesheet" href="Css/StyleCss.css" />
+    <script type="text/javascript" src="Js/ScriptJava.js"></script>
 </head>
 
 
 <body>
-
 
     <h1 id="Titulo"> SORTEIO DE NÚMEROS</h1>
     <div id="SubTitulo">
@@ -24,12 +24,23 @@
     <br>
     <br>
     <br>
+    <div id="Entry">
+        <label>Informe Até que Número deseja Sortear</label>
+        <input type="number" id="numDesejado" title="até 1.000.000" />
+
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
     <div id="Button">
         <button id="button" type="button" onclick="sortearNumeros()">SORTEAR NÚMEROS </button>
     </div>
     <br>
     <br>
     <br>
+
     <br>
     <br>
     <br>
@@ -38,11 +49,11 @@
         <h1 id="result"> </h1>
     </div>
 
-
     <div id="Titulo">
-        <ol id="listaSorteio"> </ol>
+        <ol id="listaSorteio"></ol>
+
     </div>
 
-    <script type="text/javascript" src="Js/ScriptJava.js"></script>
+
 </body>
 </html>
